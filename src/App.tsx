@@ -53,6 +53,12 @@ value = 10;
 let arrayUni: (number | string)[];
 arrayUni = [0, 1, 2, "hello"];
 
+let company: "Facebook" | "Google" | "Amazon"
+company = "Amazon";
+
+let memory: 256 | 512;
+memory = 256;
+
 
 function App() {
   return (
